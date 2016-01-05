@@ -1,0 +1,111 @@
+body {
+	/* Page background color  */
+
+	background-color: #cccccc;
+	color : #000000;
+}
+td {
+	vertical-align: top;
+	text-align: center;
+}
+table {
+	width: 100%;
+}
+div#type1 {
+	/* Define overall area    */
+	width : 990px;
+	text-align : center;
+}
+#assign3 {
+	/* Set border and color   */
+
+	background-color : #f0f0f0;
+	color : #000000;
+	width : 900px;
+	border : 4px solid;
+	border-color : #336699;
+	margin : 0 auto;
+	text-align : left;
+}
+#lastupdate {
+	/* Used in last modified  */
+
+	font-family : Arial, Helvetica, serif;
+	font-size : 8pt;
+	font-weight : bold;
+}
+.centered {
+	text-align : center;
+}
+.allowedarea {
+	width : 800px;
+	height : 520px;
+	vertical-align : bottom;
+}
+#block1 {
+	display: inline-block;
+	float: left;
+	width: 384px;
+	/*
+	border-style: solid;
+	border-width: 5px;
+	*/
+	height: 385px;
+	padding: 10px 10px 10px 10px;
+	text-align: left;
+}
+#block2 {
+	display: inline-block;
+	float: right;
+	width: 430px;
+	/*
+	border-style: solid;
+	border-width: 5px;
+	*/
+	height: 385px;
+	padding: 10px 10px 10px 10px;
+	text-align: left;
+}
+.block {
+	display: inline-block;
+}
+.block1 {
+	display: inline-block;
+	float: right;
+	width: 192px;
+}
+.block2 {
+	display: inline-block;
+	float: left;
+	width: 192px;
+}
+.input {
+	width: 364px;
+	display: block;
+	border: 1px solid #999;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+select {
+	width: 192px;
+	display: block;
+	border: 1px solid #999;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+textarea {
+	width: 364px;
+	height: 150px;
+	border: 1px solid #999;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+div p {
+	text-align: right;
+}
+form {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: bold;
+}
+.red {
+	color: #F00;
+}
